@@ -1,0 +1,3 @@
+﻿  2_Week.cpp
+C:\Users\Konstantin\source\repos\C++ 2 семестр\All_Tasks_2_semester\2_Week\2_Week\2_Week.cpp(8,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  2_Week.vcxproj -> C:\Users\Konstantin\source\repos\C++ 2 семестр\All_Tasks_2_semester\2_Week\Debug\2_Week.exe
