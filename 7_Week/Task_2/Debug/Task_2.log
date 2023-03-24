@@ -1,0 +1,4 @@
+﻿  Task_2.cpp
+C:\Users\Konstantin\source\repos\7_Week\Task_2\Task_2.cpp(20,6): warning C4101: daysInMonth: неиспользованная локальная переменная
+C:\Users\Konstantin\source\repos\7_Week\Task_2\Task_2.cpp(54): warning C4715: monthLength: значение возвращается не при всех путях выполнения
+  Task_2.vcxproj -> C:\Users\Konstantin\source\repos\7_Week\Debug\Task_2.exe
