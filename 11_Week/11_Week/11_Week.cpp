@@ -6,6 +6,7 @@ public:
 	void printStatus();
 	void set(int id, int capacity, int reserved);
 	void get();
+	double percentage(int capacity, int reserved);
 private:
 	int id;
 	int capacity;
@@ -28,8 +29,19 @@ void FlightBooking::printStatus()
 }
 FlightBooking::FlightBooking(int id, int capacity, int reserved)
 {
-	set(id, capacity, reserved);
-	
+	if (double(reserved) / capacity * 100 > 105)
+	{
+		cout << "";
+	}
+	else
+	{
+		if (reserved < 0)
+		{
+			reserved = 0;
+		}
+
+		set(id, capacity, reserved);
+	}
 }
 void FlightBooking::set(int inputId, int InputCapacity, int inputReserved)
 {
@@ -41,6 +53,10 @@ void FlightBooking::get()
 {
 	cout << "Id : "<< this->id << "Capacity : " << this->capacity << "Reserved : " << this->reserved;
 }
+double FlightBooking::percentage(int capacity, int reserved) {
+	return reserved * 100 / capacity;
+}
+
 int main() 
 {
 	int reserved = 0,
